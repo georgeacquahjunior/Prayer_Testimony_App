@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter';
+}
+
+header{
+    background-color: #F5F7FA;
+}
+
+.logo img{
+    width: 154px;
+    height: 24px;
+}
+
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height: 84px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    justify-content: space-between;
+    row-gap: 100px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #18191F;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.login,.signup{
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.login{
+    background-color: #F5F7FA;
+    color: #4CAF4F;
+}
+
+.signup{
+    background-color: #4CAF4F;
+    color: white;
+    margin-left: 14px;
+    border-radius: 6px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 96px 124px;
+}
+
+
+.hero-text h1{
+    font-size: 64px;
+    height: 152px;
+    font-weight: 600;
+
+}
+
+.hero-text h1 span{
+    color: #4CAF4F;
+}
+
+.hero-text p{
+    margin-top: 14px;
+}
+
+.hero-text button{
+    border: none;
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: white;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+.hero-image img{
+    width: 391px;
+    height: 407px;
+
+}
+
+.rings{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.rings button{
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+}
+
+.ring1, .ring2{
+    margin-right: 5px;
+}
+
+.ring2, .ring3{
+    opacity: calc(30%);
+}
+
